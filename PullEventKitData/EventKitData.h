@@ -11,9 +11,8 @@
 
 @interface EventKitData : NSObject
 
-// Returns array of EKEvent objects
-// calendars is an NSArray of EKCalendar objects
-- (NSArray *) eventsForStartDate:(NSDate *)startDate endDate:(NSDate *)endDate andCalendars:(NSArray *)calendars;
+// Returns array of all EKEvent objects
+- (NSArray *) eventsForStartDate:(NSDate *)startDate endDate:(NSDate *)endDate;
 
 - (NSArray *) eventsForStartDate:(NSDate *)startDate endDate:(NSDate *)endDate andCalendar:(EKCalendar *)calendar;
 

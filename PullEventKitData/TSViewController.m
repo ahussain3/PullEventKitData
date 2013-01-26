@@ -56,8 +56,9 @@
     
     // Call function 
     EventKitData *eventKitData = [[EventKitData alloc] init];
-    NSArray *arrayOfEvents = [eventKitData eventsForStartDate:startDate endDate:endDate andCalendar:calendar];
-    
+//    NSArray *arrayOfEvents = [eventKitData eventsForStartDate:startDate endDate:endDate andCalendar:calendar];
+  
+    NSArray *arrayOfEvents = [eventKitData eventsForStartDate:startDate endDate:endDate];
     // use the output of the function
     arrayOfEvents = arrayOfEvents;
 
